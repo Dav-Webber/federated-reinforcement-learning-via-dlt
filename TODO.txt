@@ -1,0 +1,7 @@
+NOTE: tests are all done in node.js meaning that real code needs to work with the browser, where browser indexedDB storage is to be used instead of
+the local file system as used in the tests. 
+
+1- look at saving data to csv/json after all iterations have been complete, with info: game num, iteration num, score, worker
+2- create a json object with all the records per game/iteration then after all iterations have been done, create file object and upload it to web3.storage
+4- a self correcting function? that if a particular worker is consistently underperforming compared to the rest, then it can take the
+highestt scoring workers model 

@@ -1,0 +1,54 @@
+{
+  "name": "tfjs-examples-cart-pole",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.14.2",
+    "@tensorflow/tfjs": "2.4.0",
+    "@tensorflow/tfjs-node": "^3.18.0",
+    "@tensorflow/tfjs-vis": "^1.4.3",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "file-saver": "^2.0.5",
+    "filereader": "^0.10.3",
+    "ipfs-car": "^0.7.0",
+    "mocha": "^10.0.0",
+    "os": "^0.1.2",
+    "web3.storage": "^4.2.0"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production parcel build index.html  --public-url ./",
+    "link-local": "yalc link",
+    "watch": "./serve.sh",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "clang-format": "~1.2.2",
+    "cross-env": "^5.1.6",
+    "jest": "^28.1.1",
+    "os-browserify": "^0.3.0",
+    "parcel": "~2.3.2",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "ts-jest": "^28.0.4",
+    "typescript": "^2.9.2",
+    "url": "^0.11.0",
+    "yalc": "~1.0.0-pre.50"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.7",
+    "ansi-regex": "5.0.1"
+  }
+}
